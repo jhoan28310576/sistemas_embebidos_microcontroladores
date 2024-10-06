@@ -1,3 +1,21 @@
+'''
+MicroPython en un sistema embebido es crear un programa 
+que controle un LED usando un microcontrolador como el ESP8266 o ESP32
+
+Requisitos:
+Un microcontrolador compatible con MicroPython (ESP8266 o ESP32).
+Un LED.
+Una resistencia (220 ohmios es común).
+Cables de conexión.
+
+Conexiones:
+Conecta el ánodo del LED (el pin más largo) a un pin GPIO del microcontrolador.
+Conecta el cátodo del LED a una resistencia.
+Conecta el otro extremo de la resistencia a GND en el microcontrolador.
+'''
+
+
+
 import time
 
 #simulacion del estado de un led
